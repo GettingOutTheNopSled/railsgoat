@@ -15,6 +15,7 @@ gem "jquery-fileupload-rails"
 gem "jquery-rails"
 gem "minitest"
 gem "powder" # Pow related gem
+gem "protocol"
 gem "pry-rails" # not in dev group in case running via prod/staging @ a training
 gem "puma"
 gem "rails-perftest"
