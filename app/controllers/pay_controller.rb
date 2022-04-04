@@ -30,7 +30,7 @@ class PayController < ApplicationController
     if pay.present? and pay.destroy
       flash[:success] = "Successfully Deleted Entry"
     else
-      flash[:error] = "Unable to process that request at this time"
+      flash[:error] = "There was an issue sending password reset email to #{params[:id]}".html_safe unless params[:id].nil?
     end
     redirect_to user_pay_index_path
   end
