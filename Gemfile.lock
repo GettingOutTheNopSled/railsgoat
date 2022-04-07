@@ -191,7 +191,6 @@ GEM
     multi_json (1.14.1)
     multi_test (0.1.2)
     mysql2 (0.5.2)
-    namae (1.0.1)
     nenv (0.3.0)
     nio4r (2.5.2)
     nokogiri (1.9.0)
@@ -305,6 +304,10 @@ GEM
       sprockets-rails
       tilt
     shellany (0.0.1)
+    sidekiq (6.4.1)
+      connection_pool (>= 2.2.2)
+      rack (~> 2.0)
+      redis (>= 4.2.0)
     simplecov (0.17.1)
       docile (~> 1.1)
       json (>= 1.8, < 3)
