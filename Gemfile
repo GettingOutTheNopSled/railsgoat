@@ -15,6 +15,7 @@ gem "foreman"
 gem "jquery-fileupload-rails"
 gem "jquery-rails"
 gem "minitest"
+gem "namae"
 gem "powder" # Pow related gem
 gem "protocol"
 gem "pry-rails" # not in dev group in case running via prod/staging @ a training
@@ -24,7 +25,6 @@ gem "rake"
 gem "responders" #For Rails 4.2 # LOCKED DOWN
 gem "ruby-prof"
 gem "sassc-rails"
-gem "sidekiq"
 gem "simplecov", require: false, group: :test
 gem "sqlite3"
 gem "therubyracer"

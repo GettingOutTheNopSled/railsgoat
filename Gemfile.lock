@@ -88,7 +88,6 @@ GEM
       xpath (~> 3.2)
     childprocess (3.0.0)
     cliver (0.3.2)
-    colorize (0.8.1)
     coderay (1.1.2)
     coffee-rails (5.0.0)
       coffee-script (>= 2.2.0)
@@ -97,6 +96,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
+    colorize (0.8.1)
     concurrent-ruby (1.1.5)
     contracts (0.16.0)
     crass (1.0.5)
@@ -192,6 +192,7 @@ GEM
     multi_json (1.14.1)
     multi_test (0.1.2)
     mysql2 (0.5.2)
+    namae (1.0.1)
     nenv (0.3.0)
     nio4r (2.5.2)
     nokogiri (1.9.0)
@@ -305,10 +306,6 @@ GEM
       sprockets-rails
       tilt
     shellany (0.0.1)
-    sidekiq (6.4.1)
-      connection_pool (>= 2.2.2)
-      rack (~> 2.0)
-      redis (>= 4.2.0)
     simplecov (0.17.1)
       docile (~> 1.1)
       json (>= 1.8, < 3)
